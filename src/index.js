@@ -270,7 +270,7 @@ function checkPatternMatch() {
   for (let startRow = 0; startRow <= ROWS - PATTERN_SIZE; startRow++) {
     for (let startCol = 0; startCol <= COLS - PATTERN_SIZE; startCol++) {
       if (matchesPattern(startRow, startCol)) {
-        function checkPatternMatch() {
+function checkPatternMatch() {
   for (let startRow = 0; startRow <= ROWS - PATTERN_SIZE; startRow++) {
     for (let startCol = 0; startCol <= COLS - PATTERN_SIZE; startCol++) {
       if (matchesPattern(startRow, startCol)) {
@@ -288,7 +288,7 @@ function checkPatternMatch() {
       }
     }
   }
-}
+} 
 // Check if pattern matches at position
 function matchesPattern(startRow, startCol) {
   for (let row = 0; row < PATTERN_SIZE; row++) {
